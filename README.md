@@ -4,7 +4,7 @@
 
 > :warning: **Belangrijk:** respecteer op SQL server de precieze naamgevingen die hieronder gebruikt worden!
 
-Maak op je eigen lokale SQL server een databank aan met de naam **praBieren**. De database **praBieren** moet 2 tabellen hebben :
+Maak op je eigen lokale SQL server een databank aan met de naam **praBieren**. De database **praBieren** moet 2 tabellen hebben:
 - **Bieren**
   - **id**, int, autonummering, **primaire sleutel**
   - **naam**, nvarchar(50), vereist
