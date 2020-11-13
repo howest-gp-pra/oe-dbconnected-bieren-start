@@ -28,7 +28,7 @@ In hetzelfde venster, maar onder **User Mapping** zorg je ervoor dat deze gebrui
 
 ![](images/rechten.png)
 
-> :info: Geen idee hoe je dit allemaal moet doen? Bekijk dan eerst even deze instructievideo: https://howest.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ca4766a-d8d4-41d3-ad05-abb4009e0bf4.
+> Geen idee hoe je dit allemaal moet doen? Bekijk dan eerst even deze instructievideo: https://howest.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ca4766a-d8d4-41d3-ad05-abb4009e0bf4.
 
 ## De opdracht
 
