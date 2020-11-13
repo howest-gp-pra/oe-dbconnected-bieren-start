@@ -6,19 +6,18 @@
 
 Maak op je eigen lokale SQL server een databank aan met de naam **praBieren**. De database **praBieren** moet 2 tabellen hebben:
 - **Bieren**
-  - **id**, int, autonummering, **primaire sleutel**
-  - **naam**, nvarchar(50), vereist
-  - **biersoortid**, int, vereist
-  - **prijs**, decimal(18,2), vereist
-  - **alcohol**, real
-  - **score**, int
+  - **ID**, int, autonummering, **primaire sleutel**
+  - **Naam**, nvarchar(50), vereist
+  - **BierSoortID**, int, vereist
+  - **Alcohol**, real
+  - **Score**, int
 - **BierSoorten**
-  - **id**, int, autonummering, **primaire sleutel**
-  - **soort**, nvarchar(50), vereist
+  - **ID**, int, autonummering, **primaire sleutel**
+  - **Soort**, nvarchar(50), vereist
 
 ![](images/dbschema.png)
 
-Via het database diagram kan je een relatie definiëren tussen **BierSoorten.id** en **Bieren.biersoortid**. Weet uiteraard dat **Bieren.biersoortid** een "foreign key" is die verwijst naar de primaire sleutel **BierSoorter.id**.
+Via het database diagram kan je een relatie definiëren tussen **BierSoorten.ID** en **Bieren.BierSoortID**. Weet uiteraard dat **Bieren.BierSoortID** een "foreign key" is die verwijst naar de primaire sleutel **BierSoorter.ID**.
 
 Maak via security (onder databases) een nieuwe gebruiker aan: **bieramateur**. Geef deze het paswoord: **komMaarEensBinnen**. Vink de optie "Enforce password policy" uit.
 
