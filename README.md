@@ -42,8 +42,8 @@ Het is de bedoeling dat je de twee tabellen uit je database **praBieren** gaat b
 Je zorgt er eveneens voor dat een record uit de tabel **BierSoorten** niet verwijderd kan worden indien het nog in gebruik is in de tabel **Bieren**.
 
 Let op de twee numerieke velden (die beiden waarde 0 mogen hebben):
-- "alcohol" als gebroken getal met 2 cijfers na de komma
-- score als geheel getal
+- **alcohol** als gebroken getal met 2 cijfers na de komma
+- **score** als geheel getal
 
 Het venster met de biersoorten dient geopend te worden wanneer je op de knop met de drie puntjes "..." klikt naast de combobox om een biersoort te selecteren. Op die manier kan je in deze "popup" nieuwe biersoorten aanmaken, een biersoort wijzigen, ... en die dan vervolgens aanduiden in de combobox voor je geselecteerde bier. Uiteraard wil dit zeggen dat de inhoud van de combobox zich telkens moet aanpassen zodra je een biersoort toegevoegd, verwijderd, of aangepast hebt!
 
