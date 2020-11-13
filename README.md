@@ -37,7 +37,7 @@ In de solution is reeds 1 project aanwezig met de naam **Pra.Bieren.WPF**. Hieri
 
 Wanneer je de applicatie opstart, wordt enkel het venster **winBieren** getoond. Ter info: dit werd ingesteld via het attribuut `StartupUri="winBieren.xaml"` in **App.xaml**. 
 
-Het is de bedoeling dat je de twee tabellen uit je database **prabieren** gaat beheren in deze applicatie. Zowel voor de tabel **Bieren** als voor de tabel **BierSoorten** geldt dat ALLE velden dienen ingevuld te worden (met een niet lege string) vooraleer je een record kunt toevoegen of wijzigen.
+Het is de bedoeling dat je de twee tabellen uit je database **praBieren** gaat beheren in deze applicatie. Zowel voor de tabel **Bieren** als voor de tabel **BierSoorten** geldt dat ALLE velden dienen ingevuld te worden (met een niet lege string) vooraleer je een record kunt toevoegen of wijzigen.
 
 Je zorgt er eveneens voor dat een record uit de tabel **BierSoorten** niet verwijderd kan worden indien het nog in gebruik is in de tabel **Bieren**.
 
