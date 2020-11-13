@@ -48,7 +48,11 @@ Let op de twee numerieke velden (die beiden waarde 0 mogen hebben):
 
 Het venster met de biersoorten dient geopend te worden wanneer je op de knop met de drie puntjes "..." klikt naast de combobox om een biersoort te selecteren. Op die manier kan je in deze "popup" nieuwe biersoorten aanmaken, een biersoort wijzigen, ... en die dan vervolgens aanduiden in de combobox voor je geselecteerde bier. Uiteraard wil dit zeggen dat de inhoud van de combobox zich telkens moet aanpassen zodra je een biersoort toegevoegd, verwijderd, of aangepast hebt!
 
-## Entities en services
+### Connection string
+
+In je connection string maak je gebruik van de aangemaakte gebruiker **bieramateur** en bijhorende paswoord. Je maakt m.a.w. geen gebruik van de *integrated security*. Een voorbeeld hiervan vind je in de cursus in paragraaf 3.
+
+### Entities en services
 
 **Voor deze opdracht maak je gebruik van *entity* en *service* klassen, zoals besproken in paragraaf 10 in de cursus.** Je stopt deze uiteraard in een class library en geeft die de naam **Pra.Bieren.Core**. Hierin voorzie je twee mappen:
 
@@ -59,8 +63,8 @@ De entity en service klassen plaats je dan telkens in de bijhorende map. Zorg ze
 
 **In je WPF project zit geen enkele verwijzing naar het "database gebeuren". Je werkt m.a.w. NIET met DataSets of DataTables maar met je eigen entity klassen als doorgeefluik naar de presentatielaag.**
 
-## Stored procedures
+### Stored procedures
 
 Ten slotte: hoe interessant stored procedures ook zijn, in deze oefening gebruik je ze niet. Jouw applicatie dient uiteindelijk op onze computers te kunnen werken (waar we niet beschikken over eventuele stored procedures die jij lokaal aangemaakt hebt in je database).
 
-### Succes!
+#### Succes!
