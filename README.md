@@ -17,7 +17,7 @@ Maak op je eigen lokale SQL server een databank aan met de naam **praBieren**. D
 
 ![](images/dbschema.png)
 
-Via het database diagram kan je een relatie definiëren tussen **BierSoorten.ID** en **Bieren.BierSoortID**. Weet uiteraard dat **Bieren.BierSoortID** een "foreign key" is die verwijst naar de primaire sleutel **BierSoorter.ID**.
+Via het database diagram kan je een relatie definiëren tussen **BierSoorten.ID** en **Bieren.BierSoortID**. Weet uiteraard dat **Bieren.BierSoortID** een "foreign key" is die verwijst naar de primaire sleutel **BierSoorten.ID**.
 
 Maak via security (onder databases) een nieuwe gebruiker aan: **bieramateur**. Geef deze het paswoord: **komMaarEensBinnen**. Vink de optie "Enforce password policy" uit.
 
