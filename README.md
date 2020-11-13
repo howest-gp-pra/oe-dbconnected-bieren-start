@@ -51,7 +51,7 @@ Het venster met de biersoorten dient geopend te worden wanneer je op de knop met
 
 ### Connection string
 
-In je connection string maak je gebruik van de aangemaakte gebruiker **bieramateur** en bijhorende paswoord. Je maakt m.a.w. geen gebruik van de *integrated security*. Een voorbeeld hiervan vind je in de cursus in paragraaf 3.
+In je connection string maak je gebruik van de aangemaakte gebruiker **bieramateur** en het bijhorende paswoord **komMaarEensBinnen**. Je maakt m.a.w. geen gebruik van de *integrated security*. Een voorbeeld hiervan vind je in de cursus in paragraaf 3.
 
 ### Entities en services
 
