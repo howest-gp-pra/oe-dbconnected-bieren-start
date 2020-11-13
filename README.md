@@ -47,6 +47,8 @@ Let op de twee numerieke velden (die beiden waarde 0 mogen hebben):
 
 Het venster met de biersoorten dient geopend te worden wanneer je op de knop met de drie puntjes "..." klikt naast de combobox om een biersoort te selecteren. Op die manier kan je in deze "popup" nieuwe biersoorten aanmaken, een biersoort wijzigen, ... en die dan vervolgens aanduiden in de combobox voor je geselecteerde bier. Uiteraard wil dit zeggen dat de inhoud van de combobox zich telkens moet aanpassen zodra je een biersoort toegevoegd, verwijderd, of aangepast hebt!
 
+![](images/biersoorten.png)
+
 ### Connection string
 
 In je connection string maak je gebruik van de aangemaakte gebruiker **bieramateur** en bijhorende paswoord. Je maakt m.a.w. geen gebruik van de *integrated security*. Een voorbeeld hiervan vind je in de cursus in paragraaf 3.
