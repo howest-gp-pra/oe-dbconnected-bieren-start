@@ -2,6 +2,7 @@
 
 ## Voorbereiding
 
+> :information_source: **Alternatief:** In de submap script kan je ook een script terugvinden die de database voor jou gaat aanmaken    
 > :warning: **Belangrijk:** respecteer op SQL server de precieze naamgevingen die hieronder gebruikt worden!
 
 Maak op je eigen lokale SQL server een databank aan met de naam **praBieren**. De database **praBieren** moet 2 tabellen hebben:
